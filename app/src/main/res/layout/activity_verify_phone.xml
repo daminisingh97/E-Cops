@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerifyPhoneActivity">
+    <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="Wait for the code I sent You"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressbar"
+        android:layout_below="@id/textView"/>
+</RelativeLayout>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/editTextCode"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:digits="0123456789"
+        android:hint="Enter verification code"/>
+    <Button
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Verify and SignIn"
+        android:id="@+id/buttonSignIn"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

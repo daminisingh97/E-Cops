@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299408619224",
+    "firebase_url": "https://e-cops.firebaseio.com",
+    "project_id": "e-cops",
+    "storage_bucket": "e-cops.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299408619224:android:c357a2067ca1835c",
+        "android_client_info": {
+          "package_name": "com.example.hp.e_cops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299408619224-d1e2s2s2kj9domilgadvt5odo8tcpieg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRug56Vq4KqeqrmkoeWI5oXr9oaBWxZwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

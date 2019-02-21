@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73335832436",
+    "firebase_url": "https://ecops-7aae6.firebaseio.com",
+    "project_id": "ecops-7aae6",
+    "storage_bucket": "ecops-7aae6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73335832436:android:c357a2067ca1835c",
+        "android_client_info": {
+          "package_name": "com.example.hp.e_cops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73335832436-g24ob43kledgbkhr721um3thtuvrs0cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.e_cops",
+            "certificate_hash": "fdc7e13e49d6412447c36d5be3d76b67579cd330"
+          }
+        },
+        {
+          "client_id": "73335832436-39i9s6aarqar7oe2omo6t3e832h4sgba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2sfmDF1LFzvmNzhaiI5VxN03wE1PAkKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73335832436-39i9s6aarqar7oe2omo6t3e832h4sgba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
