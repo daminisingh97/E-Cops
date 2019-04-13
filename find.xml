@@ -1,0 +1,6 @@
+<application>
+  <component name="FindSettings">
+    <option name="skipResultsWithOneUsage" value="true" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+  </component>
+</application>
